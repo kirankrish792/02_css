@@ -1,0 +1,67 @@
+body{
+    background-color:#FFA300;
+}
+div{
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+.container{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10%;
+    margin-top: 10%;
+}
+.row{
+    margin: 80px 0;
+}
+input{
+    margin: 10px;
+    border-radius: 20px;
+    width: 200px;
+    border:2px solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+button{
+    width: 100px;
+    padding: 3px 5px ;
+    background-color:#FFA300;
+    border-radius: 20px;
+    border: none;
+    margin: auto;
+    margin-top: 7px;
+    font-size: 15px;
+}
+img{
+    position: relative;
+    top: -50px;
+    left: 92px;
+}
+.checkbox{
+    margin-left: 50px;
+}
+input[type=checkbox]{
+    margin-left: 0;
+    position: relative;
+    left: -80px;
+    top: 4px;
+}
+a{
+    position: relative;
+    left: 179px;
+    top:-20px;
+    text-decoration: red dotted underline;
+    color: black;
+}
+input:focus{
+    outline: none;
+}
